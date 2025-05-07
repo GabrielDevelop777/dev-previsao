@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="https://github.com/GabrielDevelop777/dev-previsao/blob/master/assets/Captura%20de%20tela%202025-05-07%20190402.png?raw=true" alt="Logo Dev Previsões" width="580">
+  <img src="https://github.com/GabrielDevelop777/dev-previsao/blob/master/assets/Captura%20de%20tela%202025-05-07%20190402.png?raw=true" alt="Logo Dev Previsões" width="600">
 
   <p align="center">
     <a href="https://dev-previsao-tempo.netlify.app/">Ver Demonstração</a>
@@ -18,7 +18,7 @@
 **Dev Previsões** é uma aplicação web moderna para consulta de previsão do tempo em tempo real. Com uma interface elegante e responsiva utilizando glass morphism, a aplicação oferece uma experiência visual que se adapta automaticamente às condições climáticas exibidas.
 
 <div align="center">
-  <img src="https://i.imgur.com/JdXwS6p.png" alt="Screenshot da aplicação" width="600">
+  <img src="https://github.com/GabrielDevelop777/dev-previsao/blob/master/assets/Captura%20de%20tela%202025-05-07%20190402.png?raw=true" alt="Screenshot da aplicação" width="600">
 </div>
 
 ## 🚀 Funcionalidades
