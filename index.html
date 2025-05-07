@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <title>Dev Previsões</title>
+</head>
+
+<body>
+    <div class="recipiente">
+        <div class="caixa-busca">
+            <input type="text" class="entrada-cidade" placeholder="Buscar cidade...">
+            <button class="botao-busca" onclick="cliqueiNoBotao()">
+                <img class="lupa" src="https://www.svgrepo.com/show/390590/find-glass-minus-online-search-seo.svg">
+            </button>
+        </div>
+
+        <div class="dados-clima">
+            <h2 class="nome-cidade">Rio de Janeiro, BR</h2>
+            <p class="data" id="data-atual">Carregando data...</p>
+
+            <img class="icone-clima" src="https://openweathermap.org/img/wn/04d@2x.png" alt="Ícone do clima">
+
+            <div class="temperatura">
+                <div class="temp">28</div><span>°C</span>
+            </div>
+
+            <p class="descricao">Céu limpo</p>
+
+            <div class="detalhes-clima">
+                <div class="detalhe">
+                    <i class="fas fa-temperature-high"></i>
+                    <p class="etiqueta-detalhe">Sensação térmica</p>
+                    <p class="sensacao-termica valor-detalhe">30°C</p>
+                </div>
+                <div class="detalhe">
+                    <i class="fas fa-tint"></i>
+                    <p class="etiqueta-detalhe">Umidade</p>
+                    <p class="umidade valor-detalhe">65%</p>
+                </div>
+                <div class="detalhe">
+                    <i class="fas fa-wind"></i>
+                    <p class="etiqueta-detalhe">Vento</p>
+                    <p class="vento valor-detalhe">8 km/h</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="mensagem-erro"></p>
+    </div>
+
+    <button class="botao-localizacao">
+        <i class="fas fa-map-marker-alt"></i> Usar minha localização
+    </button>
+</body>
+<script src="scripts.js"></script>
+
+</html>
